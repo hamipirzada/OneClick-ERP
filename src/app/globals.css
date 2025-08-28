@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-navy: #1A237E;
+  --accent-orange: #FF5722;
+  --accent-green: #4CAF50;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', 'Roboto', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #212121;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Poppins', system-ui, -apple-system, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.font-display {
+  font-family: 'Montserrat', 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom component styles */
+@layer components {
+  .btn-primary {
+    @apply bg-accent text-white px-8 py-3 rounded-lg font-semibold hover:bg-accent/90 transition-all duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-accent-green text-white px-8 py-3 rounded-lg font-semibold hover:bg-accent-green/90 transition-all duration-300;
+  }
+  
+  .text-heading {
+    @apply font-display font-bold text-text-dark;
+  }
+
+  /* Custom shadows with footer color (#00296b) */
+  .shadow-footer {
+    box-shadow: 4px 4px 8px rgba(0, 41, 107, 0.15);
+  }
+  
+  .shadow-footer-md {
+    box-shadow: 6px 6px 12px rgba(0, 41, 107, 0.15);
+  }
+  
+  .shadow-footer-lg {
+    box-shadow: 8px 8px 16px rgba(0, 41, 107, 0.2);
+  }
+  
+  .shadow-footer-xl {
+    box-shadow: 12px 12px 20px rgba(0, 41, 107, 0.25);
+  }
+
+  .hover\:shadow-footer-md:hover {
+    box-shadow: 6px 6px 12px rgba(0, 41, 107, 0.15);
+  }
+  
+  .hover\:shadow-footer-xl:hover {
+    box-shadow: 12px 12px 20px rgba(0, 41, 107, 0.25);
+  }
+}
