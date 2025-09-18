@@ -36,7 +36,7 @@ export const SimpleFooter = () => {
                 <span>📞</span>
                 <div>
                   <div className="font-medium">Phone</div>
-                  <div className="text-sm">+1 (307) 555-0133</div>
+                  <div className="text-sm">+91 6005227426</div>
                 </div>
               </div>
 
