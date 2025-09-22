@@ -56,8 +56,8 @@ export default function Footer() {
                 <span className="text-white/90 text-sm">info@oneclick.com</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-sm">📞</span>
-                {/* <span className="text-white/90 text-sm">+91 7051294074</span> */}
+                {/*<span className="text-sm">📞</span>
+                 <span className="text-white/90 text-sm">+91 7051294074</span> */}
               </div>
               <div className="flex items-start gap-2">
                 <span className="text-sm">📍</span>
