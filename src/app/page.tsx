@@ -97,7 +97,7 @@ export default function Home() {
                   alt="Odoo Logo"
                   width={177}
                   height={40}
-                  className="object-contain bg-transparent rounded-md"
+                  className="object-contain bg-transparent rounded-lg"
                   style={{ backgroundColor: 'transparent' }}
                 />
               </motion.div>
