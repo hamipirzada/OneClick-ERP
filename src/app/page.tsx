@@ -95,7 +95,7 @@ export default function Home() {
                 <Image
                   src="/odooimage.jpg"
                   alt="Odoo Logo"
-                  width={80}
+                  width={100}
                   height={40}
                   className="object-contain bg-transparent"
                   style={{ backgroundColor: 'transparent' }}
